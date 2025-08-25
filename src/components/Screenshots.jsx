@@ -19,7 +19,7 @@ const Screenshots = () => {
 
   const screenshots = [
     {
-      title: 'Dashboard m',
+      title: 'Dashboard',
       description:
         'Clean and intuitive user dashboard that provides a quick overview of leads, follow-ups, and properties at a glance.',
       image: dashboardImg,
