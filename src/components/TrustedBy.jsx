@@ -34,7 +34,7 @@ function Testimonials() {
       text: "Lead's Transfer helped us increase our efficiency by 80%. Our team now converts leads faster with better coordination!",
     },
     {
-      name: "Chitransh Realtos",
+      name: "Chandra Realtors",
       text: "We were drowning in spreadsheets before switching to this CRM. Now everything is streamlined from lead capture to closing.",
     },
     {
@@ -43,11 +43,15 @@ function Testimonials() {
     },
     {
       name: "Janakraj Group",
-      text: "We integrated SmartPro CRM in just one day. The customer support is fantastic and the onboarding experience was super smooth.",
+      text: "We integrated LeadsTracker CRM in just one day. The customer support is fantastic and the onboarding experience was super smooth.",
     },
     {
       name: "Tanmay Estates",
-      text: "We integrated SmartPro CRM in just one day. The customer support is fantastic and the onboarding experience was super smooth.",
+      text: "Adding leads has never been easier! With LeadsTracker, I can manually add new leads in seconds, assign them to my team, and track every interaction. It’s smooth, fast, and keeps all our data organized under one platform.",
+    },
+    {
+      name: "4s Estates",
+      text: "Leadstracker CRM has completely transformed the way we handle our real estate business. Before, managing leads was chaotic and time-consuming, but now everything is streamlined in one place. The interface is clean, easy to use, and my team picked it up instantly",
     },
   ];
 
