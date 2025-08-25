@@ -13,13 +13,13 @@ const Screenshots = () => {
       duration: 1200,
       once: false,
       mirror: true,
-      easing: 'ease-out-back',
+      easing: 'ease-out-back', 
     });
   }, []);
 
   const screenshots = [
     {
-      title: 'Dashboard',
+      title: 'Dashboard m',
       description:
         'Clean and intuitive user dashboard that provides a quick overview of leads, follow-ups, and properties at a glance.',
       image: dashboardImg,
