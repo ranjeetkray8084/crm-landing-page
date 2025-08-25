@@ -13,7 +13,7 @@ const Screenshots = () => {
       duration: 1200,
       once: false,
       mirror: true,
-      easing: 'ease-out-back',
+      easing: 'ease-out-back', 
     });
   }, []);
 

@@ -49,6 +49,7 @@ function Testimonials() {
       name: "Tanmay Estates",
       text: "We integrated SmartPro CRM in just one day. The customer support is fantastic and the onboarding experience was super smooth.",
     },
+    
   ];
 
   return (
