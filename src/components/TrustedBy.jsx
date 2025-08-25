@@ -49,6 +49,10 @@ function Testimonials() {
       name: "Tanmay Estates",
       text: "We integrated SmartPro CRM in just one day. The customer support is fantastic and the onboarding experience was super smooth.",
     },
+      {
+      name: "4s Estates",
+      text: "Leadstracker CRM has completely transformed the way we handle our real estate business. Before, managing leads was chaotic and time-consuming, but now everything is streamlined in one place. The interface is clean, easy to use, and my team picked it up instantly",
+    },
   ];
 
   return (
