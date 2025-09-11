@@ -30,7 +30,7 @@ function Contact() {
       if (response.ok) {
         setAlertMessage("Message sent successfully!");
         setAlertType("success");
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "",number:"", email: "", message: "" });
       } else {
         setAlertMessage("Failed to send message. Please try again later.");
         setAlertType("error");
@@ -96,6 +96,17 @@ function Contact() {
               onChange={handleChange}
               required
               placeholder="Your Name"
+              className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+          </div>
+           <div className="mb-4">
+            <input
+              type="number"
+              name="Phone Number"
+              value={formData.number}
+              onChange={handleChange}
+              required
+              placeholder="Your Phone Number"
               className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
