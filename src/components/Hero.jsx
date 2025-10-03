@@ -59,31 +59,35 @@ function Hero() {
       </div>
       
       <div className="max-w-6xl mx-auto text-center relative z-10">
-        {/* Main content container with 3D effect */}
-        <div className="transform-gpu transform-3d perspective-1000">
-          {/* 3D Text Container */}
-          <div className="mb-8 transform translateZ-50">
+        {/* Main content container */}
+        <div>
+          {/* Text Container */}
+          <div className="mb-8">
             <h1
-              className="text-4xl md:text-5xl font-black mb-8 text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-200 to-purple-300 leading-tight"
+              className="text-4xl md:text-5xl font-black mb-8 text-white leading-tight"
               data-aos="fade-down"
               data-aos-delay="100"
               style={{
-                textShadow: '0 0 30px rgba(255,255,255,0.3), 0 0 60px rgba(124, 58, 237, 0.3)',
-                filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                WebkitFontSmoothing: 'antialiased',
+                MozOsxFontSmoothing: 'grayscale',
+                textRendering: 'optimizeLegibility',
+                textShadow: '0 2px 4px rgba(0,0,0,0.3)'
               }}
             >
-              <span ref={typedElement} className="inline-block transform hover:scale-105 transition-transform duration-300"></span>
+              <span ref={typedElement} className="inline-block"></span>
             </h1>
           </div>
           
-          {/* 3D Description */}
-          <div className="mb-12 transform translateZ-30">
+          {/* Description */}
+          <div className="mb-12">
             <p
               className="text-lg md:text-xl mb-6 text-gray-200 leading-relaxed max-w-4xl mx-auto"
               data-aos="fade-up"
               data-aos-delay="300"
               style={{
-                textShadow: '0 2px 4px rgba(0,0,0,0.5)'
+                WebkitFontSmoothing: 'antialiased',
+                MozOsxFontSmoothing: 'grayscale',
+                textRendering: 'optimizeLegibility'
               }}
             >
               🚀 LeadsTracker is a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 font-semibold">powerful CRM</span> designed for managing leads, follow-ups, properties, and more.
@@ -103,9 +107,9 @@ function Hero() {
             </div>
           </div>
           
-          {/* 3D Buttons */}
+          {/* Buttons */}
           <div
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center transform translateZ-40"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
             data-aos="zoom-in"
             data-aos-delay="500"
           >
